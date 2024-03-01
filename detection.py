@@ -56,5 +56,5 @@ if location is not None:
     detected_texts = [region_info[1] for region_info in detected]
     print(detected_texts)
 else:
-    print("No license plate detected")
+    print("No license plate detected!")
     exit()
